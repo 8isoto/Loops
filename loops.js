@@ -10,13 +10,15 @@ counter=counter-1;
     }
     console.log("Done Son!");
 
-
 }
 
 function loopTwo(){
+for(var i=0;i<n;i+2){
+
+console.log(i)}
 
 
-}
+
 
 function loopThree(){
 
