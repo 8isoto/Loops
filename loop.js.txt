@@ -12,8 +12,8 @@ counter=counter-1;
 
 }
 
-function loopTwo(){
-for(var i=1;i<n;i*2i);{
+function loopTwo(){number, power)
+for(var i=0;i<=power;i++);{
 
 console.log(i)}
 
