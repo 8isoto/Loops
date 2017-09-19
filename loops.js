@@ -1,45 +1,51 @@
-function loopOne(){
+function loopOne(time){
 
-    var counter = 30;
-    while (counter>0){
-if (counter% 5 == 0){
-console.log("AHHHHH" + counter + "seconds left!");
-}
-console.log(counter + "seconds left.");
-counter=counter-1;
+  while(time >= 0){
+    if(time %5 == 0){
+      console.log("AHHHHHH"+time+"seconds left");
     }
-    console.log("Done Son!");
-
+    else{
+      console.log(time+"seconds left.");
+    }
+    time=time-1;
+  }
+  console.log("Done Son!")
 }
+function loopTwo(number,power){
+  let sum =0;
+  for(let p=0; p <=power; p++){
+    sum = sum + Math+pow(number, p);
+  }
+   return sum;
 
-function loopTwo(){
-for(var i=0;i<n;i+2){
-
-console.log(i)}
+ }
 
 
+function loopThree(number,number){
+  let lastime="";
+  for (let p = 1;p<=number;p++){
+    lastime=lastime+pyramid
+    console.log(lastime);
 
-
-function loopThree(){
-
+  }
 
 }
 
 function main(){
-    //Testing each function
-    loopOne(10);
-    loopOne(25);
+  //Testing each function
+  loopOne(10);
+  loopOne(25);
 
-    let powersOfTwo = loopTwo(2,10);
-    let powersOfFive = loopTwo(5,4);
-    console.log("The sum is "+powersOfTwo);
-    console.log("The sum is "+powersOfFive);
+  let powersOfTwo = loopTwo(2,10);
+  let powersOfFive = loopTwo(5,4);
+  console.log("The sum is "+powersOfTwo);
+  console.log("The sum is "+powersOfFive);
 
-    loopThree("#",6);
-    loopThree("$",20);
-    loopThree("x",10);
+  loopThree("#",6);
+  loopThree("$",20);
+  loopThree("x",10);
 
-    console.log("You will need to scroll up to check all of them.");
+  console.log("You will need to scroll up to check all of them.");
 }
 
 //Hit ctrl + Shift + B to run the program.
